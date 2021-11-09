@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #e2e1e0;
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  width: 50%;
+  background-color: white;
+  border-radius: 2px;
+  padding: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.btn-google {
+  background: #e2e1e0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+  color: rgba(17, 17, 17, 0.857);
+}
+
+.object {
+  display: flex;
+  flex-direction: column;
+}
+.object div:first-child {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.object div:first-child img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.object div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  width: 50%;
+  outline:none;
+  border:none;
+  padding: 0.8rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 5px;
+  border-radius: 10px;
+}
